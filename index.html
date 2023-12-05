@@ -9,8 +9,10 @@
 <body>
     <header>
         <div class="container">
-            <button class="header_button"><img src="./img/mi_menu.svg" alt="menu"></button>
-            <button class="header_button"><img src="./img/mi_log-in.svg" alt="login"></button>
+            <div class="header_btns">
+                <button class="header_button"><img src="./img/mi_menu.svg" alt="menu"></button>
+                <button class="header_button"><img src="./img/mi_log-in.svg" alt="login"></button>
+            </div>
             <nav>
                 <ul>
                     <li><a href="" class="header_link">Products</a></li>
@@ -23,24 +25,24 @@
         </div>
     </header>
     <main>
-        <section>
+        <section class="hero">
             <div class="container">
-                <h1>Integer tincidunt nulla</h1>
-                <p>Duis sed luctus ex. Fusce scelerisque erat eu lacus sollicitudin posuere. Pellentesque metus nibh, facilisis sed sodales sed, viverra vitae nulla.</p>
-                <ul>
-                    <li>
+                <h1 class="ttl">Integer tincidunt nulla</h1>
+                <p class="hero_txt">Duis sed luctus ex. Fusce scelerisque erat eu lacus sollicitudin posuere. Pellentesque metus nibh, facilisis sed sodales sed, viverra vitae nulla.</p>
+                <ul class="hero_cards">
+                    <li class="hero_card">
                         <p>Клиентов</p>
                         <span>20К</span>
                     </li>
-                    <li>
+                    <li class="hero_card">
                         <p>Заказов</p>
                         <span>80К</span>
                     </li>
-                    <li>
+                    <li class="hero_card">
                         <p>Звонков</p>
                         <span>200К</span>
                     </li>
-                    <li>
+                    <li class="hero_card">
                         <p>Рекомендаций</p>
                         <span>8К</span>
                     </li>
@@ -54,11 +56,11 @@
         <footer>
             <div class="container">
                 <form action="" class="footer_form">
-                    <label for="">
-                        <span>Телефон для обратной связи </span>
-                        <input type="phone" placeholder="+7(999) 999-99-99">
+                    <label for="phone_input">
+                        <span class="form_span">Телефон для обратной связи</span>
+                        <input id="phone_input" type="phone" placeholder="+7(999) 999-99-99" class="form_input">
                     </label>
-                    <button type="submit" class="form_btn">Заказать звонок img</button>
+                    <button type="submit" class="form_btn">Заказать звонок</button>
                 </form>
             </div>
         </footer>
