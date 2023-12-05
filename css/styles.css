@@ -33,3 +33,7 @@ body {
 header {
     background-color: var(--b-c--black);
 }
+
+button {
+    background-color: transparent;
+}
