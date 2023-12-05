@@ -1,6 +1,21 @@
+:root {
+    --b-c--black: #1A1423;
+    --b-c--purple: #372549;
+    --b-c--peach: #B75D69;
+    --b-c--white: #FFFFFF;
+}
+
 *, *::before , *::after {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     border: none;
+}
+
+body {
+    background-color: var(--b-c--purple);
+}
+
+header {
+    background-color: var(--b-c--black);
 }
