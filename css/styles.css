@@ -1,8 +1,22 @@
+@font-face {
+    font-family: 'Sofia Sans Semi Condensed';
+    src: url('../fonts/SofiaSansSemiCondensed-Medium.eot');
+    src: url('../fonts/SofiaSansSemiCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SofiaSansSemiCondensed-Medium.woff2') format('woff2'),
+        url('../fonts/SofiaSansSemiCondensed-Medium.woff') format('woff'),
+        url('../fonts/SofiaSansSemiCondensed-Medium.ttf') format('truetype'),
+        url('../fonts/SofiaSansSemiCondensed-Medium.svg#SofiaSansSemiCondensed-Medium') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
     --b-c--black: #1A1423;
     --b-c--purple: #372549;
     --b-c--peach: #B75D69;
     --b-c--white: #FFFFFF;
+    font-family: 'Sofia Sans Semi Confensed' sans-serif;
 }
 
 *, *::before , *::after {
